@@ -1,0 +1,24 @@
+{
+    "name": "lxiaoqiao/laravel-swoole",
+    "description": "laravel-swoole",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "梁顺和",
+            "email": "qxk3920@dingtalk.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xiaoqiao\\LaravelSwoole\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xiaoqiao\\LaravelSwoole\\LaravelSwooleProvider"
+            ]
+        }
+    },
+    "require": {}
+}
